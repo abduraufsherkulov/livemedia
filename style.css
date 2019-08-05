@@ -605,7 +605,7 @@ a.btn-def.bnt-2.big {
 /*----------------------------------------*/
 #video-bg { width: 100% }
 .ready-to-play {
-    height: 400px;
+    /* height: 400px; */
     overflow: hidden;
     position: relative;
     z-index: 2;
