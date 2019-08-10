@@ -271,9 +271,21 @@ a.btn-def {
 
 }
 
+.dispme{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
  
 /* small mobile :320px. */
 @media (max-width: 767px) {
+  
+  .dispme{
+    display: block;
+  }
+  .dispme div{
+    padding-bottom: 20px;
+  }
 .container {width:300px}
  .mobile-menu-area{
 	display:block
