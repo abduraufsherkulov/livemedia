@@ -303,7 +303,37 @@ a.btn-def {
   background: rgba(0, 0, 0, 0.8) none repeat scroll 0 0;
 }
 .slide1-text {
+  display: block;
+}
+.slide1-text p {
+  font-size: 10px;
+  line-height: 48px;
+  padding: 0;
+  text-transform: uppercase;
+}
+.slide1-text .cap-title h1{
+  font-family: "Source Sans Pro",sans-serif;
+  font-size: 27px;
+  line-height: 0px;
+  margin: 0;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+.down-arrow a{
   display: none;
+}
+.date-address {
+  line-height: 25px;
+  overflow: hidden;
+  margin-top: 17px;
+}
+a.btn-def {
+  border: 1px solid #f1f1f1;
+  border-radius: 5px;
+  color: #f1f1f1;
+  display: inline-block;
+  padding: 6px 12px;
+  text-transform: uppercase;
 }
 .header-area {
   position: static;
